@@ -1,0 +1,42 @@
+.header {
+    display: grid;
+    grid-template: 1fr / minmax(auto, 200px) minmax(auto, auto);
+    align-items: center;
+    .headerLogo {
+        position: relative;
+        padding: 0 0 12% 0;
+        margin: auto 0;
+        overflow: hidden;
+        img {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            top: 0;
+            left: 0;
+        }
+        
+    }
+    .headerMenu {
+        color: #fff;
+        font-size: 14px;
+        .headerList {
+            display: grid;
+            grid-auto-flow: column;
+            justify-items: end;
+            li {
+                cursor: default;
+                font-size: 16px;
+                color: #b1b1b1;
+                &:hover {
+                    color: #ffffff;
+                    border-bottom: 1px solid #ffffff;
+                }
+            }
+        }
+    }
+}
+
+.menuItem {
+    color: #fff;
+}

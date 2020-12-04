@@ -1,0 +1,68 @@
+.wrapper {
+    position: absolute;
+    max-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: url(./Component/assets/bg.jpg) 50% 0 no-repeat;
+    // background-repeat: no-repeat;
+    // background-size: contain;
+    .container {
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 0 10%;
+        display: grid;
+        grid-template: minmax(100px, auto) 1fr / 1fr;
+    }
+    .cz1 {
+        background-color: aqua;
+    }
+    .cz2 {
+        background-color: brown;
+    }
+}
+
+.bm-burger-button {
+    position: fixed;
+    width: 26px;
+    height: 20px;
+    right: 10%;
+    top: 47px;
+}
+.bm-burger-bars {
+    background: #cccccc;
+}
+.bm-burger-bars-hover {
+    background: #7d7c7d;
+}
+.bm-cross-button {
+    height: 24px;
+    width: 24px;
+}
+.bm-cross {
+    background: #bdc3c7;
+}
+.bm-menu-wrap {
+    position: fixed;
+    top: 0px;
+    height: 100%;
+}
+.bm-menu {
+    background: #373a47;
+    padding: 2.5em 1.5em 0;
+    font-size: 1.15em;
+}
+.bm-morph-shape {
+    fill: #373a47;
+}
+.bm-item-list {
+    color: #b8b7ad;
+    padding: 0.8em;
+}
+.bm-item {
+    display: inline-block;
+}
+.bm-overlay {
+    top: 0;
+    background: rgba(0, 0, 0, 0.3);
+}
